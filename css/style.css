@@ -1,0 +1,61 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+    height: 100vh;
+	width: 100%;
+}
+
+.fundo {
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#051937+1,a8eb12+100 */
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+}
+
+.pt1 {
+    height: 100%;
+}
+
+.c1 {
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.c2 {
+    color: white;
+}
+
+.btoes-div {
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.btoes {
+    margin-right: 15px;
+    color: #00bf72;
+}
+
+.btoes:hover {
+    color: black;
+}
+
+
+.menu1 {
+    margin-top: 30px;
+    margin-right: 40px;
+
+}
+
+.clr {
+    position: fixed;
+    top: 20vh;
+    right: 0;
+    width: 40em;
+}
+
+.logo {
+    margin-left: 4em;
+}
