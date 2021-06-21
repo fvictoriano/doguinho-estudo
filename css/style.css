@@ -11,7 +11,6 @@ body {
 .fundo {
    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#051937+1,a8eb12+100 */
     background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-
 }
 
 .pt1 {
@@ -28,6 +27,9 @@ body {
     color: white;
 }
 
+.c3 {
+    background-color: #00bf72;
+}
 .btoes-div {
     padding-left: 40px;
     padding-bottom: 40px;
@@ -58,4 +60,8 @@ body {
 
 .logo {
     margin-left: 4em;
+}
+
+.bg1 {
+    background-color: rgba(0, 135, 147, .1);
 }
