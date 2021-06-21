@@ -1,6 +1,8 @@
 * {
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -64,4 +66,117 @@ body {
 
 .bg1 {
     background-color: rgba(0, 135, 147, .1);
+}
+
+/* ----------------- LOGIN ----------------- */
+
+.main-container {
+    background-color: white;
+    max-width: 400px;
+    min-height: 47vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+
+.t1 {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.t1::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background-color: #00bf72;
+    
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field input {
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background-color: #00bf72;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    width: 100%;
+    
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background-color: #008793;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer span {
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.footer .socialfields {
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.footer .socialfields a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .socialfields a i {
+    margin: 0 0.5rem;
+    width: 20px;
+}
+
+.footer .socialfields.twitter {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+}
+
+.footer .socialfields.facebook {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.cad1 {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.cad1:hover {
+    text-decoration: none;
 }
