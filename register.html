@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <link rel="icon" type="image/png" href="img/icone.png">
     <!-- Bootstrap CSS 
@@ -34,48 +35,53 @@
         </div>
     </nav>
 
-    <section class="container-fluid c2">
-      <div class="row" style="height: 100vh;">
-        <div class="col-sm-12 col-md-6 align-self-center" align="center">
-            <h2 class="display-4 c1 font-weight-bold">Pediu, chegou.</h2>
-        </div>
-        <div class="col-sm-12 col-md-6 bg1" style="height: 100vh;">
-            <div class="container" style="margin-top: 30%;">
-                <form action="" class="m-auto" style="max-width:550px" align="center">
-                    <h3 class="my-4">Cadastro</h3>
-                    <hr class="my-4" />
-                    <div class="form-group mb-3 row"><label for="seu-nome-2" class="col-md-3 col-form-label">Seu nome:</label>
-                        <div class="col-md-6"><input type="text" class="form-control" id="seu-nome-2" name="seu-nome" required></div>
-                    </div>
-                    <div class="form-group mb-3 row"><label for="seu-email-3" class="col-md-3 col-form-label">Seu email:</label>
-                        <div class="col-md-6"><input type="email" class="form-control" id="seu-email-3" name="seu-email" required></div>
-                    </div>
-                    <div class="form-group mb-3 row"><label for="senha-5" class="col-md-3 col-form-label">Senha:</label>
-                        <div class="col-md-6"><input type="text" class="form-control " id="senha-5" name="senha" required></div>
-                    </div>
-                    <div class="form-group mb-3 row"><label for="sexo-6" class="col-md-3 col-form-label">Sexo:</label>
-                        <div class="col-md-6"><select class="form-select custom-select" id="sexo-6">
-                                <option></option>
-                                <option>Masculino</option>
-                                <option>Feminino</option>
-                            </select></div>
-                    </div>
-                    <div class="form-group mb-3 row"><label for="nome-do-seu-dog-7" class="col-md-3 col-form-label">Nome do dog:</label>
-                        <div class="col-md-6"><input type="text" class="form-control " id="nome-do-seu-dog-7" name="nome-do-seu-dog" required></div>
-                    </div>
-                    <div class="form-group mb-3 row"><label for="seu-dog-e-8" class="col-md-3 col-form-label">Seu dog é:</label>
-                        <div class="col-md-6"><select class="form-select custom-select " id="seu-dog-e-8">
-                                <option></option>
-                                <option>Macho</option>
-                                <option>Fêmea</option>
-                            </select></div>
-                    </div>
-                    <hr class="my-4" />
-                    <div class="form-group mb-3 row"><label for="cadastrar10" class=" col-form-label"></label>
-                        <div class="col-md-12"><button class="btn btn-lg c2 c3" type="submit">Cadastrar</button></div>
-                    </div>
-                </form>
+    <section class="container" >
+      <div class="row"style="height: 100vh;">
+        <div class="col-sm-12 col-md-6 align-self-center animate__animated animate__fadeInLeftBig" align="center">
+            <div>
+                <h2 class="c2 display-4 font-weight-bold d-block">Cadastrou, pediu, chegou.</h2>
             </div>
+        </div>
+        <div class="col-sm-12 col-md-6 align-self-center animate__animated animate__zoomIn">
+            <div class="container main-container">
+                <h3 class="t1">Cadastro</h3>
+                <form>
+                    <div class="input-field">
+                        <input type="email" class="input2" name="email" placeholder="coloque seu email" required>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" class="" name="seunome" placeholder="seu nome"required>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="input2" name="pass" placeholder="crie sua senha" required>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="input-field">
+                        <select class="form-control" required>
+                            <option>Eu sou</option>
+                            <option>Homem</option>
+                            <option>Mulher</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" class="" name="seunome" placeholder="nome do doguinho" required>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="input-field">
+                        <select class="form-control">
+                            <option>Meu dog é:</option>
+                            <option>Macho</option>
+                            <option>Fêmea</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Cadastrar">
+                </form>
+
+            </div>
+        
+
         </div>
       </div>
     </section>

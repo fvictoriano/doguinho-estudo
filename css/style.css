@@ -32,6 +32,10 @@ body {
 .c3 {
     background-color: #00bf72;
 }
+
+.c4 {
+    color: black;
+}
 .btoes-div {
     padding-left: 40px;
     padding-bottom: 40px;
@@ -128,7 +132,7 @@ body {
 
 }
 
-form .input-field:first-child {
+form .input-field {
     margin-bottom: 1.5rem;
 }
 
