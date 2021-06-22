@@ -36,6 +36,7 @@ body {
 .c4 {
     color: black;
 }
+
 .btoes-div {
     padding-left: 40px;
     padding-bottom: 40px;
@@ -48,13 +49,6 @@ body {
 
 .btoes:hover {
     color: black;
-}
-
-
-.menu1 {
-    margin-top: 30px;
-    margin-right: 40px;
-
 }
 
 .clr {
@@ -72,7 +66,11 @@ body {
     background-color: rgba(0, 135, 147, .1);
 }
 
-/* ----------------- LOGIN ----------------- */
+.borda {
+    border: 1px solid red;
+}
+
+/* ----------------- LOGIN & CADASTRO ----------------- */
 
 .main-container {
     background-color: white;
