@@ -8,11 +8,9 @@
 body {
     height: 100vh;
 	width: 100%;
-}
-
-.fundo {
-   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#051937+1,a8eb12+100 */
     background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: cover;
+    background-attachment:fixed;
 }
 
 .pt1 {
