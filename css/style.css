@@ -230,6 +230,10 @@ form input[type="submit"]:hover {
     letter-spacing: 1px;
 }
 
+.navbar-toggler:focus {
+    outline-style: none;
+}
+
 /* ----------------- Menu lateral ----------------- */
 
 /* The sidebar menu */

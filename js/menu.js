@@ -10,7 +10,13 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "0";
   }
 
+  var teste2 = 'AAAAAAA'
+  var teste2 = teste2.toLowerCase()
+  
 
+
+
+  
 let estado = true;
 function abrirPesquisa() {
     if(estado === true) {
@@ -21,46 +27,19 @@ function abrirPesquisa() {
     estado = !estado;
 
     let valorPesquisa = document.getElementById('pesquisa1').value;
+    valorPesquisa = valorPesquisa.toLowerCase();
 
-    if (valorPesquisa === 'Banho' || valorPesquisa === 'banho' ) {
-      let elemento1 = document.getElementById('tosa');
-      elemento1.classList.add("d-none");
-      let elemento2 = document.getElementById('acessorios');
-      elemento2.classList.add("d-none");
-      let elemento3 = document.getElementById('alimentacao');
-      elemento3.classList.add("d-none");
-      document.getElementById('pesquisa1').value = '';
-    }
+    document.getElementById('banho').classList.add("d-none");
+    document.getElementById('tosa').classList.add("d-none");
+    document.getElementById('acessorios').classList.add("d-none");
+    document.getElementById('alimentacao').classList.add("d-none");
 
-    if (valorPesquisa === 'Tosa' || valorPesquisa === 'tosa' ) {
-      let elemento1 = document.getElementById('banho');
-      elemento1.classList.add("d-none");
-      let elemento2 = document.getElementById('acessorios');
-      elemento2.classList.add("d-none");
-      let elemento3 = document.getElementById('alimentacao');
-      elemento3.classList.add("d-none");
-      document.getElementById('pesquisa1').value = '';
-    }
+    if (valorPesquisa === 'banho') { document.getElementById('banho').classList.remove("d-none"); }
+    if (valorPesquisa === 'tosa') { document.getElementById('tosa').classList.remove("d-none");}
+    if (valorPesquisa === 'acessórios' || valorPesquisa === 'acessorios') { document.getElementById('acessorios').classList.remove("d-none"); }
+    if (valorPesquisa === 'alimentação' || valorPesquisa === 'alimentacao') { document.getElementById('alimentacao').classList.remove("d-none"); }
 
-    if (valorPesquisa === 'Acessórios' || valorPesquisa === 'acessórios' ) {
-      let elemento1 = document.getElementById('banho');
-      elemento1.classList.add("d-none");
-      let elemento2 = document.getElementById('tosa');
-      elemento2.classList.add("d-none");
-      let elemento3 = document.getElementById('alimentacao');
-      elemento3.classList.add("d-none");
-      document.getElementById('pesquisa1').value = '';
-    }
-
-    if (valorPesquisa === 'Alimentação' || valorPesquisa === 'alimentação' ) {
-      let elemento1 = document.getElementById('banho');
-      elemento1.classList.add("d-none");
-      let elemento2 = document.getElementById('tosa');
-      elemento2.classList.add("d-none");
-      let elemento3 = document.getElementById('acessorios');
-      elemento3.classList.add("d-none");
-      document.getElementById('pesquisa1').value = '';
-    }
+    document.getElementById('pesquisa1').value ='';
 
 }
 
