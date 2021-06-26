@@ -17,6 +17,7 @@
 
   <body>
     <div id="bg-menu"></div>
+    <!-- menu e search/notifications-->
     <header>
       <nav>
         <div id="mySidebar" class="sidebar">
@@ -30,14 +31,17 @@
       </nav>
       
     </header>
+    <!-- fim menu e search/notifications-->
 
+
+    <!-- olá usuario -->
     <section class="container section1">
       <div class="row">  
         <div class="col-sm-12">
           <div id="main" class="navbar ">
-            <button class="openbtn position-fixed" onclick="openNav(), bgmenu()">&#9776;</button>
+            <button class="openbtn" onclick="openNav(), bgmenu()">&#9776;</button>
 
-            <input class="ml-auto input-search" type="textarea" placeholder="Procure" id="pesquisa1">
+            <input class="ml-auto input-search" type="textarea" placeholder="Pesquisar" id="pesquisa1">
             <a href="#" onclick="abrirPesquisa()"><i class="fas fa-search search-icon"></i></a>
 
             <i class="far fa-bell search-icon font-weight-bold ml-3"></i>                                
@@ -52,8 +56,11 @@
 
         </div>
       </div>
+    <!-- fim usuario-->
 
+    <!-- conteudo principal-->  
       <div class="container mt-4">
+        <!-- primeira linha botões-->
         <div class="row">
           <div class="col-sm-12 col-md-3 text-center mt-3 animate__animated animate__zoomIn" id="banho">
             <div class="fazer-pedido">
@@ -98,9 +105,76 @@
               </div>
             </div>
           </div>
+        </div>
+        <!-- fim primeira linha-->
+        <!-- segunda linha-->
+        <div class="row">
+          <div class="col-sm-12 col-md-6 mt-4 animate__animated animate__zoomIn">
+            <div class="fazer-pedido">
+              <div class="text-center">
+                <span class="lead titulo2 font-weight-bold">Meus ultimos pedidos</span>
+              </div>
+              <div>
+                <table class="table table-striped text-center">
+                  <tr>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Horário</th>
+                  </tr>
+                  <tr class="linha">
+                    <td>Alimentação</td>
+                    <td>26/06/2021</td>
+                    <td>12:51</td>
+                  </tr>
+                  <tr class="linha">
+                    <td>Tosa</td>
+                    <td>26/06/2021</td>
+                    <td>09:22</td>
+                  </tr>
+                  <tr class="linha">
+                    <td>Banho</td>
+                    <td>26/06/2021</td>
+                    <td>11:36</td>
+                  </tr>
+                  <tr class="linha">
+                    <td>Acessório</td>
+                    <td>26/06/2021</td>
+                    <td>10:53</td>
+                  </tr>
+                </table>
 
+              </div>
+              
+
+            </div>
+            
+
+          </div>
+          <div class="col-sm-12 col-md-6 mt-4 animate__animated animate__zoomIn">
+            <div class="row fazer-pedido">
+              <div class="col-sm-12 col-md-6 ">
+                <div class="text-center">
+                  <a href="#"><i class="fas fa-user-circle icon-foto"></i></a>
+                  <span class="d-block lead" style="font-size: 1rem; padding-top: 22px;">Mudar foto</span>
+
+                </div>
+                
+                
+
+              </div>
+              <div class="col-sm-12 col-md-6">
+
+              </div>
+            </div>
+
+         
+          </div>
+
+        </div> 
+        <!-- fim segunda linha--> 
 
       </div>
+    <!-- fim conteudo principal-->  
 
    
 
