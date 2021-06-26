@@ -62,4 +62,13 @@ function abrirPesquisa() {
       document.getElementById('pesquisa1').value = '';
     }
 
-}  
+}
+
+
+function bgmenu() {
+  document.getElementById('bg-menu').style.height = '100vh'
+}
+
+function bgmenuClose() {
+  document.getElementById('bg-menu').style.height = '0vh'
+}
