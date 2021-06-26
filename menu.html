@@ -20,31 +20,86 @@
       <nav>
         <div id="mySidebar" class="sidebar">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#">Minha conta</a>
-          <a href="#">Meus pedidos</a>
-          <a href="#">Suporte</a>
-          <a href="index.html">Sair</a>
+          <a href="#"><i class="fas fa-user"></i><span class="lead"> Minha conta</span></a>
+          <a href="#"><i class="far fa-folder"></i><span class="lead"> Meus pedidos</span></a>
+          <a href="#"><i class="far fa-comment"></i><span class="lead"> Suporte</span></a>
+          <a href="index.html"><i class="far fa-times-circle"></i><span class="lead"> Sair</span></a>
         </div>
+ 
       </nav>
       
     </header>
 
-    <section class="container-fluid">
+    <section class="container section1">
       <div class="row">  
-        <div class="col-sm-12" style="height: 50vh; background-color: rgba(255, 255, 255, 0.2);">
-          <div id="main">
-            <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <div class="col-sm-12">
+          <div id="main" class="navbar">
+            <button class="openbtn position-fixed" onclick="openNav()">&#9776;</button>
+            <input class="ml-auto input-search" type="textarea" placeholder=" Procure">
+            <a href="#"><i class="fas fa-search search-icon"></i></a>
+            <i class="far fa-bell search-icon"></i>                                
           </div>
+        
           <div class="container">
-            <h2 class="display-4">O que você gostaria de pedir?</h2>
-
+            <h2 class="lead c5 text-center mt-3">Olá $usuario, <b>bem vindo de volta!</b><br><span style="font-size: 1rem;">Como posso te ajudar hoje?</span></h2>
+            
           </div>
-
-
-
+          
+          
 
         </div>
       </div>
+
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-sm-12 col-md-3 text-center mt-3">
+            <div class="fazer-pedido">
+              <div class="link-pedido">
+                <a href="#" class="btn-pedido">
+                  <i class="fas fa-bath" style="font-size: 7rem;"></i>
+                  <p class="text-nowrap mt-2 font-weight-bold">Banho</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-3 text-center mt-3">
+            <div class="fazer-pedido">
+              <div class="link-pedido">
+                <a href="#" class="btn-pedido">
+                  <i class="fas fa-cut" style="font-size: 7rem;"></i>
+                  <p class="text-nowrap mt-2 font-weight-bold">Tosa</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-3 text-center mt-3">
+            <div class="fazer-pedido">
+              <div class="link-pedido">
+                <a href="#" class="btn-pedido">
+                  <i class="fas fa-bath" style="font-size: 7rem;"></i>
+                  <p class="text-nowrap mt-2 font-weight-bold">Acessórios</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-3 text-center mt-3">
+            <div class="fazer-pedido">
+              <div class="link-pedido">
+                <a href="#" class="btn-pedido">
+                  <i class="fas fa-bone" style="font-size: 7rem;"></i>
+                  <p class="text-nowrap mt-2 font-weight-bold">Alimentação</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+
+   
 
     </section>
     

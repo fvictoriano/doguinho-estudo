@@ -35,6 +35,13 @@ body {
     color: black;
 }
 
+.c5 {
+    color: rgb(238, 238, 238);
+    padding: 5px;
+    background-color: rgba(0, 77, 122, 0.3);
+    border-radius: 1.5rem;
+}
+
 .btoes-div {
     padding-left: 40px;
     padding-bottom: 40px;
@@ -233,7 +240,7 @@ form input[type="submit"]:hover {
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: rgba(0, 77, 122, 0.5); /* Black*/
+    background-color: rgba(0, 77, 122, 0.9); /* Black*/
     /*background: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
@@ -270,12 +277,14 @@ form input[type="submit"]:hover {
     color: white;
     padding: 10px 15px;
     border-radius: 15px;
+    transition: all 0.3s ease;
   }
   
   .openbtn:hover {
-    background-color: #444;
+    background-color: #004d7a;;
     border: none;
     outline-style: none;
+    
   }
 
   .openbtn:focus {
@@ -288,10 +297,69 @@ form input[type="submit"]:hover {
   #main {
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
+    width: 100%;
   }
+
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+
+/* ----------------- Menu CSS ----------------- */
+
+.section1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 100vh;
+    border-radius: 30px;
+    overflow-x: hidden;
+}
+
+.input-search {
+    background-color: rgba(238, 238, 238, 0.9);
+    border-radius: 50px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.input-search:focus {
+    outline: none;
+}
+
+.search-icon {
+    font-size: 1.4rem;
+    border-radius: 50px;
+    color: rgba(238, 238, 238, 0.9);
+    margin-left: 5px;
+}
+
+.fazer-pedido {
+    color: rgb(238, 238, 238);
+    background-color: rgba(0, 77, 122, 0.3);
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    
+}
+
+.fazer-pedido:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-pedido {
+    text-decoration: none;
+    color: rgba(238, 238, 238, 0.9);
+    transition: all 0.3s ease;
+
+}
+
+.btn-pedido:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.link-pedido {
+    padding-bottom: 2px;
+    padding-top: 25px;
+}
+
