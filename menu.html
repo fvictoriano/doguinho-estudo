@@ -35,9 +35,11 @@
         <div class="col-sm-12">
           <div id="main" class="navbar">
             <button class="openbtn position-fixed" onclick="openNav()">&#9776;</button>
-            <input class="ml-auto input-search" type="textarea" placeholder=" Procure">
-            <a href="#"><i class="fas fa-search search-icon"></i></a>
-            <i class="far fa-bell search-icon"></i>                                
+
+            <input class="ml-auto input-search" type="textarea" placeholder="Procure" id="pesquisa1">
+            <a href="#" onclick="abrirPesquisa()"><i class="fas fa-search search-icon"></i></a>
+
+            <i class="far fa-bell search-icon font-weight-bold ml-3"></i>                                
           </div>
         
           <div class="container">
@@ -52,7 +54,7 @@
 
       <div class="container mt-4">
         <div class="row">
-          <div class="col-sm-12 col-md-3 text-center mt-3">
+          <div class="col-sm-12 col-md-3 text-center mt-3" id="banho">
             <div class="fazer-pedido">
               <div class="link-pedido">
                 <a href="#" class="btn-pedido">
@@ -63,7 +65,7 @@
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-3 text-center mt-3">
+          <div class="col-sm-12 col-md-3 text-center mt-3" id="tosa">
             <div class="fazer-pedido">
               <div class="link-pedido">
                 <a href="#" class="btn-pedido">
@@ -74,18 +76,18 @@
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-3 text-center mt-3">
+          <div class="col-sm-12 col-md-3 text-center mt-3" id="acessorios">
             <div class="fazer-pedido">
               <div class="link-pedido">
                 <a href="#" class="btn-pedido">
-                  <i class="fas fa-bath" style="font-size: 7rem;"></i>
+                  <i class="fas fa-dog" style="font-size: 7rem;"></i>
                   <p class="text-nowrap mt-2 font-weight-bold">Acessórios</p>
                 </a>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-3 text-center mt-3">
+          <div class="col-sm-12 col-md-3 text-center mt-3" id="alimentacao">
             <div class="fazer-pedido">
               <div class="link-pedido">
                 <a href="#" class="btn-pedido">
