@@ -402,10 +402,16 @@ form input[type="submit"]:hover {
 
 .icon-foto {
     font-size: 10rem;
-    padding-top: 15px;
+    text-decoration: none;
     color: rgba(238, 238, 238, 0.9);
 }
 
 .icon-foto:hover {
     color: white;
+    text-decoration: none;
+}
+
+.texto-foto {
+    font-size: 1rem;
+    margin-left: 20px;
 }
