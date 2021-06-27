@@ -236,19 +236,18 @@ form input[type="submit"]:hover {
 
 /* ----------------- Menu lateral ----------------- */
 
-/* The sidebar menu */
+/* Menu Lateral */
   .sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 100%; /* 100%  */
+    width: 0; /* 0 de largura, é mudado com a função no js */
+    position: fixed; /* Fica fixado */
+    z-index: 1; /* Fica no topo */
     top: 0;
     left: 0;
-    background-color: rgba(0, 77, 122, 0.9); /* Black*/
-    /*background: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    background-color: rgba(0, 77, 122, 0.9); 
+    overflow-x: hidden; /* Desativa o scroll horizontal quando abre o menu */
+    padding-top: 60px; /* 60px de padding top */
+    transition: 0.5s; /* a transação quando é aberto o menu */
   }
   
   .sidebar a {
@@ -298,17 +297,7 @@ form input[type="submit"]:hover {
     outline-style: none;
 }
 
-
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s; /* If you want a transition effect */
-    padding: 20px;
-    width: 100%;
-  }
-
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
