@@ -302,6 +302,12 @@ form input[type="submit"]:hover {
     .sidebar a {font-size: 18px;}
   }
 
+  #main {
+    transition: margin-left .5s; /* classe css para que tenha uma transição de "empurrar o botão" */
+    padding: 20px;
+    width: 100%;
+  }
+
 /* ----------------- Menu CSS ----------------- */
 
 .section1 {
